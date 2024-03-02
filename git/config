@@ -1,0 +1,32 @@
+[user]
+	name = Sujith Sudarshan
+
+[commit]
+	verbose = true
+
+[gpg]
+	format = ssh
+
+[commit]
+	gpgSign = true
+
+[tag]
+	gpgSign = true
+
+[init]
+	defaultBranch = main
+
+[log]
+	date = local
+
+[tag]
+	sort = version:refname
+
+[branch]
+	sort = -committerdate
+
+[rerere]
+	enabled = true
+
+[include]
+	path = config.local
